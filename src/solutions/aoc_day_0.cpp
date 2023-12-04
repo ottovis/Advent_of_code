@@ -1,73 +1,65 @@
-#include <string>
-#include <vector>
+#include <algorithm>
+#include <cstdlib>
 #include <iostream>
 #include <sstream>
-#include <cstdlib>
+#include <string>
+#include <vector>
 
 #include "aoc_day_0.h"
 #include "file_utils.h"
 
-using namespace std;
-
-AocDay0::AocDay0():AocDay(0)
+AocDay0::AocDay0() : AocDay(day)
 {
 }
 
-AocDay0::~AocDay0()
-{
-}
-
-vector<long> AocDay0::read_input(string filename)
+std::vector<double> AocDay0::read_input(const std::string &filename) const
 {
     FileUtils fileutils;
-    vector<string> raw_lines;
-    vector<long> data;
+    std::vector<std::string> raw_lines;
+    std::vector<double> data;
     if (!fileutils.read_as_list_of_strings(filename, raw_lines))
     {
-        cerr << "Error reading in the data from " << filename << endl;
+        std::cerr << "Error reading in the data from " << filename << std::endl;
         return data;
     }
-    for (vector<string>::iterator iter = raw_lines.begin(); iter != raw_lines.end(); ++iter)
+    for (const auto &line : raw_lines)
     {
-        long l;
-        string to_convert = *iter;
-        l = strtol(to_convert.c_str(), NULL, 10);
+        double l = std::strtod(line.c_str(), nullptr);
         data.push_back(l);
     }
     return data;
 }
 
-string AocDay0::part1(string filename, vector<string> extra_args)
+std::string AocDay0::part1(const std::string &filename, const std::vector<std::string> &extra_args)
 {
-    vector<long> data = read_input(filename);
-    long sum = 0;
-    for (vector<long>::iterator iter = data.begin(); iter != data.end(); ++iter)
+    std::vector<double> data = read_input(filename);
+    double sum = 0;
+    for (const auto &value : data)
     {
-        sum+=*iter;
+        sum += value;
     }
-    ostringstream out;
+    std::ostringstream out;
     out << sum;
     return out.str();
 }
 
-string AocDay0::part2(string filename, vector<string> extra_args)
+std::string AocDay0::part2(const std::string &filename, const std::vector<std::string> &extra_args)
 {
-    if (extra_args.size() > 0)
+    if (extra_args.empty())
     {
-        cout << "There are " << extra_args.size() << " extra arguments given:" << endl;
-        for (vector<string>::iterator iter = extra_args.begin(); iter != extra_args.end(); ++iter)
-        {
-            cout << "[" << *iter << "]" << endl;
-        }
+        std::cout << "There are " << extra_args.size() << " extra arguments given:" << std::endl;
+        std::for_each(extra_args.begin(), extra_args.end(), [](const std::string &s)
+                      { std::cout << "[" << s << "]" << std::endl; });
     }
-    
-    vector<long> data = read_input(filename);
-    long sum = 0;
-    for (vector<long>::iterator iter = data.begin(); iter != data.end(); ++iter)
+
+    std::vector<double> data = read_input(filename);
+    double sum = 0;
+
+    for (const auto &value : data)
     {
-        sum-=*iter;
+        sum -= value;
     }
-    ostringstream out;
+    std::ostringstream out;
     out << sum;
     return out.str();
 }

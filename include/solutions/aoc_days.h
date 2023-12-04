@@ -2,19 +2,19 @@
 #define __AOC_DAYS_H__
 
 #include <map>
+#include <memory>
 
 #include "aoc_day.h"
 
-using namespace std;
-
 class AocDays
 {
-    protected:
-        map<int, AocDay *> m_days;
-    public:
-        AocDays();
-        ~AocDays();
-        AocDay * get_day(int day);
+protected:
+    std::map<int, std::shared_ptr<AocDay>> m_days;
+
+public:
+    AocDays();
+    ~AocDays();
+    std::shared_ptr<AocDay> get_day(const int &day);
 };
 
 #endif

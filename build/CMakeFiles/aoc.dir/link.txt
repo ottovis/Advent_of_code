@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/aoc.dir/src/aoc.cpp.o -o aoc  libsolutions.a 

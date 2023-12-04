@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsolutions.a CMakeFiles/solutions.dir/src/solutions/aoc_day.cpp.o CMakeFiles/solutions.dir/src/solutions/aoc_days.cpp.o CMakeFiles/solutions.dir/src/solutions/aoc_day_0.cpp.o CMakeFiles/solutions.dir/src/solutions/aoc_day_1.cpp.o CMakeFiles/solutions.dir/src/solutions/aoc_day_2.cpp.o CMakeFiles/solutions.dir/src/runner/file_utils.cpp.o
+/usr/bin/ranlib libsolutions.a

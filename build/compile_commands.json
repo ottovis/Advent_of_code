@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/solutions.dir/src/solutions/aoc_day.cpp.o -c /home/otto/Advent_of_code/src/solutions/aoc_day.cpp",
+  "file": "/home/otto/Advent_of_code/src/solutions/aoc_day.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/solutions.dir/src/solutions/aoc_days.cpp.o -c /home/otto/Advent_of_code/src/solutions/aoc_days.cpp",
+  "file": "/home/otto/Advent_of_code/src/solutions/aoc_days.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/solutions.dir/src/solutions/aoc_day_0.cpp.o -c /home/otto/Advent_of_code/src/solutions/aoc_day_0.cpp",
+  "file": "/home/otto/Advent_of_code/src/solutions/aoc_day_0.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/solutions.dir/src/solutions/aoc_day_1.cpp.o -c /home/otto/Advent_of_code/src/solutions/aoc_day_1.cpp",
+  "file": "/home/otto/Advent_of_code/src/solutions/aoc_day_1.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/solutions.dir/src/solutions/aoc_day_2.cpp.o -c /home/otto/Advent_of_code/src/solutions/aoc_day_2.cpp",
+  "file": "/home/otto/Advent_of_code/src/solutions/aoc_day_2.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/solutions.dir/src/runner/file_utils.cpp.o -c /home/otto/Advent_of_code/src/runner/file_utils.cpp",
+  "file": "/home/otto/Advent_of_code/src/runner/file_utils.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -std=gnu++17 -o CMakeFiles/aoc.dir/src/aoc.cpp.o -c /home/otto/Advent_of_code/src/aoc.cpp",
+  "file": "/home/otto/Advent_of_code/src/aoc.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/include/common -I/home/otto/Advent_of_code/include/runner -I/home/otto/Advent_of_code/include/solutions -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest -std=gnu++17 -o CMakeFiles/tests.dir/src/tests.cpp.o -c /home/otto/Advent_of_code/src/tests.cpp",
+  "file": "/home/otto/Advent_of_code/src/tests.cpp"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/build/_deps/googletest-src/googlemock/include -I/home/otto/Advent_of_code/build/_deps/googletest-src/googlemock -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/otto/Advent_of_code/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/otto/Advent_of_code/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googlemock/include -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googlemock -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/otto/Advent_of_code/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/otto/Advent_of_code/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/otto/Advent_of_code/build/_deps/googletest-src/googletest/include -I/home/otto/Advent_of_code/build/_deps/googletest-src/googletest -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/otto/Advent_of_code/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/otto/Advent_of_code/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/otto/Advent_of_code/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/otto/Advent_of_code/build/_deps/googletest-src/googletest -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/otto/Advent_of_code/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/otto/Advent_of_code/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+}
+]
